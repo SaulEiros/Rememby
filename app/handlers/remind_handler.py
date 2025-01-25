@@ -11,8 +11,6 @@ async def remind(update: Update, context: ContextTypes.DEFAULT_TYPE):
         message = " ".join(context.args[:-1])
         reminder_time = context.args[-1]
 
-        print(context.args)
-
         # Validar el formato de la fecha
         reminder_time_parsed = datetime.strptime(reminder_time, "%Y-%m-%d:%H:%M").strftime("%Y-%m-%d %H:%M")
 

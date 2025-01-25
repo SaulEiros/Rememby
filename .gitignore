@@ -1,2 +1,6 @@
 __pycache__
 rememby_env
+.env
+./utils/webhook.py
+data
+
