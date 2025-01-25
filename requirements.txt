@@ -4,3 +4,4 @@ apscheduler
 fastapi
 uvicorn
 requests
+colorlog
